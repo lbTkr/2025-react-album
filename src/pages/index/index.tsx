@@ -7,7 +7,7 @@ import Card from '@/pages/index/components/Card';
 // CSS
 import styles from "./styles/index.module.scss";
 import axios from 'axios';
-import { CardDTO } from '@/types/card';
+import type { CardDTO } from '@/pages/index/types/card';
 
 function index() {
   const [imgUrls, setImgUrls] = useState([]);
